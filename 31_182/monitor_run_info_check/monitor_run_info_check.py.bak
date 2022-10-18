@@ -1,0 +1,70 @@
+import   datetime, time, json, os
+import time
+from epics import caget,caput
+
+def get_value(pv_list_info):
+	for pv_name in pv_list_info:
+		if pv_name != 'EXP_IB1_GP:soft:cmd':
+			pv_value  = caget(pv_name)
+			pv_dict_info[pv_name] = pv_value  
+			print pv_name,'=',pv_value
+		else:
+			pv_value  = caget(pv_name)
+			pv_dict_info[pv_name] = cmd_inforpv_value  
+			print pv_name,'=',pv_value
+
+def checkout(pv_alarm_info):
+	pv_alarm_info['EXP_IB1_GP:M1:FileAlarm:bi'] = 1
+	pv_alarm_info['EXP_IB1_GP:M2:FileAlarm:bi'] = 1	
+	if  pv_dict_info['EXP_IB1_GP:soft:cmd'] == cmd_info[pv_dict_info['EXP_IB1_GP:M1:startExp']] and pv_dict_info['EXP_IB1_GP:soft:cmd'] == cmd_info[pv_dict_info['EXP_IB1_GP:M2:startExp']]:
+		print("cmd is normal: %d" %(pv_dict_info['EXP_IB1_GP:soft:cmd']))
+		if pv_dict_info['EXP_IB1_GP:soft:run_no'] == M1_runNO and pv_dict_info['EXP_IB1_GP:soft:run_no'] == M1_runNO:
+			print("run no is normal :%d" % (pv_dict_info['EXP_IB1_GP:soft:run_no']))
+			if M1_fileNum == M2_fileNum and M1_fileName == M2_fileName:
+			#	pass
+				print("current filenum and filename is normal: %d,%s" %(M1_fileNum,M1_fileName))
+			else:
+				print "M1_fileNum,M2_fileNum,M1_fileName,M2_fileName:  "
+				print M1_fileNum,M2_fileNum,M1_fileName,M2_fileName
+				pv_alarm_info['EXP_IB1_GP:M1:FileAlarm:bi'] = 0
+		else:
+			print "'EXP_IB1_GP:soft:run_no',M1_runNO,M2_runNO:   "
+			print pv_dict_info['EXP_IB1_GP:soft:run_no'],M1_runNO,M2_runNO
+			pv_alarm_info['EXP_IB1_GP:M1:FileAlarm:bi'] = 0
+	else:
+		print "EXP_IB1_GP:soft:cmd, M1_cmd, M1_cmd:  "	
+		print pv_dict_info['EXP_IB1_GP:soft:cmd'],cmd_info[pv_dict_info['EXP_IB1_GP:M1:startExp']],cmd_info[pv_dict_info['EXP_IB1_GP:M2:startExp']]
+		pv_alarm_info['EXP_IB1_GP:M1:FileAlarm:bi'] = 0
+		
+	
+
+
+if __name__ == "__main__":
+	pv_dict_info = {
+		'EXP_IB1_GP:soft:cmd':'EXIT',
+		'EXP_IB1_GP:soft:run_no':0,
+		'EXP_IB1_GP:M1:startExp':'EXIT',	
+		'EXP_IB1_GP:M2:startExp':'EXIT',
+		'EXP_IB1_GP:M1:runNo':0,
+		'EXP_IB1_GP:M2:runNo':0,
+		'EXP_IB1_GP:M1:CaptureHdfFileNumber':0,
+		'EXP_IB1_GP:M2:CaptureHdfFileNumber':0,
+		'EXP_IB1_GP:M1:HdfFullFileName':'##',
+		'EXP_IB1_GP:M2:HdfFullFileName':'##',
+	}
+	pv_list_info = pv_dict_info.keys()
+	print pv_list_info
+	pv_alarm_info = {
+		'EXP_IB1_GP:M1:FileAlarm:bi':1,
+		'EXP_IB1_GP:M2:FileAlarm:bi':1
+	}
+	cmd_info = ['CONF','START','STOP','EXIT','CANCEL','GO']
+        while 1:
+		get_value(pv_list_info)
+              #  checkout(pv_alarm_info)
+               # fo = open('hv_log_.dat','a+')
+                #fo.writelines("\n")
+                #fo.close()
+                print "\n\n"
+                time.sleep(60)
+

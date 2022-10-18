@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="auto_complete_history">
+		<list key="PV">
+			<item value="$(P)M1:Det$(DET):TOFTransOffset"/>
+			<item value="$(P)M1:Det$(DET):TOFTransOffset_RBV"/>
+			<item value="$(P)M1:Det$(DET):TOFTransScale_RBV"/>
+			<item value="$(P)M1:Det$(DET):TOFTransScale"/>
+			<item value="$(P)$(R)HdfFilePath"/>
+			<item value="BL18:Det:M1:HdfFileWriteMode"/>
+			<item value="BL18:Det:M1:Stop.PROC"/>
+			<item value="BL18:Det:M2:Stop.PROC"/>
+			<item value="BL18:Det:M1:Stop.PROC&apos;"/>
+			<item value="$(P)$(R)Stop.PROC"/>
+			<item value="$(P)$(R)HdfFullFileName {&quot;longString&quot;:true}"/>
+			<item value="$(P)$(R)hdfGasContentMessage {&quot;longString&quot;:true}"/>
+			<item value="$(P)$(R)hdfHV2Message {&quot;longString&quot;:true}"/>
+			<item value="$(P)$(R)hdfHV1Message {&quot;longString&quot;:true}"/>
+			<item value="$(P)$(R)hdfNumPulsePerFile {&quot;longString&quot;:true}"/>
+			<item value="$(P)$(R)HdfFileTemplate {&quot;longString&quot;:true}"/>
+			<item value="ioc:SYSRESET"/>
+			<item value="BL99:Det:N1:Reset"/>
+			<item value="BL99:Det::SYSRESET"/>
+		</list>
+	</section>
+</section>

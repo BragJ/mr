@@ -1,0 +1,54 @@
+# DO NOT EDIT: This file created by mkmf.pl,v 1.5 2002/03/25 21:33:24 jba Exp $ 
+
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/base.dbd
+../O.Common/testwr.dbd : ../xxxSupport.dbd
+../O.Common/testwr.dbd : ../dbSubExample.dbd
+../O.Common/testwr.dbd : ../testwrHello.dbd
+../O.Common/testwr.dbd : ../initTrace.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/menuGlobal.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/menuConvert.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/aaiRecord.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/aaoRecord.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/aiRecord.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/aoRecord.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/aSubRecord.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/biRecord.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/boRecord.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/calcRecord.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/calcoutRecord.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/compressRecord.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/dfanoutRecord.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/eventRecord.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/fanoutRecord.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/longinRecord.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/longoutRecord.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/mbbiRecord.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/mbbiDirectRecord.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/mbboRecord.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/mbboDirectRecord.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/permissiveRecord.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/selRecord.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/seqRecord.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/stateRecord.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/stringinRecord.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/stringoutRecord.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/subRecord.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/subArrayRecord.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/waveformRecord.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/devSoft.dbd
+../O.Common/testwr.dbd : ../xxxRecord.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/menuAlarmSevr.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/menuAlarmStat.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/menuCompress.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/menuFtype.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/menuIvoa.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/menuOmsl.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/menuPini.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/menuPriority.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/menuScan.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/menuSimm.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/menuYesNo.dbd
+../O.Common/testwr.dbd : /opt/egcs/epics/base/dbd/dbCommon.dbd
+
+
+../O.Common/testwrInclude.dbd : ../Makefile

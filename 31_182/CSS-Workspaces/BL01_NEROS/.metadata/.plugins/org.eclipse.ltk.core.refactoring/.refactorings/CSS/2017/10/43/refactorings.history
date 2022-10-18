@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CSS/subOPI/ADnED_Transform.opi&apos; to &apos;NEROS_Transform.opi&apos;" description="Rename resource &apos;ADnED_Transform.opi&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="subOPI/ADnED_Transform.opi" name="NEROS_Transform.opi" stamp="1509082307040" updateReferences="true"/>
+</session>

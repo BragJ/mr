@@ -1,0 +1,188 @@
+record(ai, "XRay:Conf2Main")
+{
+        field(DESC, "configure to main")
+        field(INP, "0")
+}
+
+record(ai, "EXP_IB1_$(SPEC):soft:test")
+{
+	field(DESC, "Test...")
+        field(SCAN, "1 second")
+        field(INP, 0)
+        field(HIHI, "5")
+        field(HIGH, "4")
+        field(LOW, "0.2")
+        field(LOLO, "0")
+        field(HHSV, "MAJOR")
+        field(HSV, "MINOR")
+        field(LSV, "MINOR")
+        field(LLSV, "MAJOR")
+
+}
+
+record(stringin, "XraySampleStr")
+{
+        field(INP, "100")
+        field(DESC, "Analog input")
+}
+record(stringin, "GppdSampleStr")
+{
+        field(INP, "time")
+        field(DESC, "Analog input")
+}
+record(stringin, "EXP_IB1_GP:CTRL:ExpEndChoise:stringin")
+{
+        field(INP, "time")
+        field(DESC, "Analog input")
+}
+record(stringin, "EXP_IB1_GP:EXP:EndChoise:stringin")
+{
+        field(INP, "beam_time")
+}
+
+
+
+record(ai, "EXP_IB1_GP:EXP:ProtonCalcSet:ai")
+{
+        field(INP, "0")
+}
+record(ai, "EXP_IB1_GP:EXP:BeamtimeSet:ai")
+{
+        field(INP, "0")
+}
+record(ai, "EXP_IB1_GP:EXP:RuntimeSet:ai")
+{
+        field(INP, "0")
+}
+
+
+record(calc, "EXP_IB1_$(SPEC):soft:ProtonCountCalc")
+{
+        field(DESC, "Proton counter calc")
+        field(CALC, "(B=1)?( (C>0.6)?(A+C):A ):D"  )
+	field(INPA, "EXP_IB1_GP:soft:ProtonCountCalc.VAL  NPP NMS")
+        field(INPB, "$(EXP)_IB1_$(SPEC):soft:cmd.VAL NPP NMS")
+        field(INPC, "EXP_TB_HC:WR:PBMonitor:ProtonCharge3 CP")
+        field(INPD, "0")
+        field(EGU, "Counts")
+}
+
+record(calc, "$(EXP)_IB1_$(SPEC):soft:beamtime")
+{
+        field(DESC, "Beam time Counter.")
+        field(SCAN, "1 second")
+        field(CALC, "(B=1)?(((D >= 0.2) ?(A+C):A):0)")
+        field(INPA, "$(EXP)_IB1_$(SPEC):soft:beamtime.VAL  NPP NMS")
+        field(INPB, "$(EXP)_IB1_$(SPEC):soft:cmd.VAL")
+        field(INPC, "1")
+        field(INPD, "EXP_TB_HC:WR:PBMonitor:ProtonCharge3")
+        field(EGU, "seconds")
+}
+
+record(calc, "$(EXP)_IB1_$(SPEC):soft:runtime")
+{
+        field(DESC, "Beam time Counter.")
+        field(SCAN,"1 second")
+        field(CALC, "(B=1)?((A+C):0)")
+        field(INPA, "$(EXP)_IB1_$(SPEC):soft:runtime.VAL  NPP NMS")
+        field(INPB, "$(EXP)_IB1_$(SPEC):soft:cmd.VAL")
+        field(INPC, "1")
+        field(EGU, "seconds")
+}
+
+record(stringin, "$(EXP)_IB1_$(SPEC):soft:proposal_id")
+{
+	field(INP, "CSNS0001")
+}
+record(stringin, "$(EXP)_IB1_$(SPEC):soft:user_id")
+{
+	field(INP, "hulei")
+}
+record(ai, "$(EXP)_IB1_GP:soft:run_no")
+{
+	field(INP, "0")
+}
+
+record(state, "$(EXP)_IB1_$(SPEC):soft:ctrl_stat")
+{
+	field(VAL, "NULL")
+	field(DESC, "CSNS  control stat")
+}
+record(state, "$(EXP)_IB1_$(SPEC):soft:daq_stat")
+{
+	field(VAL, "NULL")
+}
+record(state, "$(EXP)_IB1_$(SPEC):soft:online_stat")
+{
+	field(VAL, "NULL")
+}
+record(state, "$(EXP)_IB1_$(SPEC):soft:controlonly-switch")
+{
+	field(VAL, "NO")
+}
+
+record(stringin, "$(EXP)_IB1_$(SPEC):soft:rundescription")
+{
+        field(DESC,"")
+}
+record(mbbi, "$(EXP)_IB1_$(SPEC):soft:cmd")
+{
+	field(INP, "4")
+	field(ZRVL, "0")
+	field(ZRST, "CONF")
+	field(ONVL, "1")
+	field(ONST, "START")
+	field(TWVL, "2")
+	field(TWST, "STOP")
+	field(THVL, "3")
+	field(THST, "EXIT")
+	field(FRVL, "4")
+	field(FRST, "CANCEL")
+	field(FVVL, "5")
+	field(FVST, "GO")
+}
+record(stringin, "$(EXP)_IB1_$(SPEC):soft:runstarttime")
+{
+	field(DESC,"start time for each run")
+}
+record(stringin, "$(EXP)_IB1_$(SPEC):soft:description")
+{
+	field(DESC,"")
+}
+record(stringin, "$(EXP)_IB1_$(SPEC):soft:measuretype")
+{
+	field(DESC,"")
+}
+record(stringin, "$(EXP)_IB1_$(SPEC):soft:samplename")
+{
+	field(DESC,"")
+}
+record(stringin, "$(EXP)_IB1_$(SPEC):soft:samplechemicalformula")
+{
+	field(DESC,"")
+}
+record(stringin, "$(EXP)_IB1_$(SPEC):soft:samplesituation")
+{
+	field(DESC,"")
+}
+record(stringin, "$(EXP)_IB1_$(SPEC):soft:sampletype")
+{
+	field(DESC,"")
+}
+record(stringin, "$(EXP)_IB1_$(SPEC):soft:sampledensity")
+{
+	field(DESC,"")
+}
+record(stringin, "$(EXP)_IB1_$(SPEC):soft:samplemass")
+{
+	field(DESC,"")
+}
+record(stringin, "$(EXP)_IB1_$(SPEC):soft:sampledistance")
+{
+	field(DESC,"")
+}
+record(stringin, "$(EXP)_IB1_$(SPEC):soft:rundescription")
+{
+	field(DESC,"")
+}
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CSS/Copy of NEROS.opi&apos; to &apos;NEROS_User.opi&apos;" description="Rename resource &apos;Copy of NEROS.opi&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Copy of NEROS.opi" name="NEROS_User.opi" stamp="1502240814561" updateReferences="true"/>
+</session>

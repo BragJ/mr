@@ -1,0 +1,9 @@
+#RTBT
+record(bo, "EXP_IB2_MR:Monitor1:Checkout:bi")
+{
+   field(ZNAM, "No")
+   field(ONAM, "Yes")
+   field(VAL,  "1")
+   field(ZSV,"MAJOR")
+}
+

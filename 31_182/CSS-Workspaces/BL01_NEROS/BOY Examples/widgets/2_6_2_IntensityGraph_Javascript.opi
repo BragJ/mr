@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display typeId="org.csstudio.opibuilder.Display" version="1.0.0">
+  <show_close_button>true</show_close_button>
+  <rules />
+  <wuid>553ac269:135b01240d5:-3c52</wuid>
+  <show_grid>false</show_grid>
+  <auto_zoom_to_fit_all>false</auto_zoom_to_fit_all>
+  <scripts />
+  <height>600</height>
+  <macros>
+    <include_parent_macros>true</include_parent_macros>
+  </macros>
+  <boy_version>4.0.103.201507131348</boy_version>
+  <show_edit_range>true</show_edit_range>
+  <widget_type>Display</widget_type>
+  <auto_scale_widgets>
+    <auto_scale_widgets>true</auto_scale_widgets>
+    <min_width>-1</min_width>
+    <min_height>-1</min_height>
+  </auto_scale_widgets>
+  <background_color>
+    <color red="240" green="240" blue="240" />
+  </background_color>
+  <width>800</width>
+  <x>-1</x>
+  <name>Intensity Graph</name>
+  <grid_space>6</grid_space>
+  <show_ruler>false</show_ruler>
+  <y>-1</y>
+  <snap_to_geometry>false</snap_to_geometry>
+  <foreground_color>
+    <color red="192" green="192" blue="192" />
+  </foreground_color>
+  <actions hook="false" hook_all="false" />
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>553ac269:135b01240d5:-3c50</wuid>
+    <transparent>false</transparent>
+    <auto_size>false</auto_size>
+    <text>Intensity Graph&#xD;
+with Javascript</text>
+    <scripts />
+    <height>86</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="135" green="181" blue="255" />
+    </background_color>
+    <width>307</width>
+    <x>5</x>
+    <name>Label_8</name>
+    <y>5</y>
+    <foreground_color>
+      <color red="128" green="0" blue="64" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <fontdata fontName="Arial" height="18" style="1" />
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>553ac269:135b01240d5:-3c4f</wuid>
+    <transparent>false</transparent>
+    <auto_size>false</auto_size>
+    <text>Examples</text>
+    <scripts />
+    <height>43</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="135" green="181" blue="255" />
+    </background_color>
+    <width>488</width>
+    <x>299</x>
+    <name>Label_6</name>
+    <y>48</y>
+    <foreground_color>
+      <color red="29" green="40" blue="184" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <fontdata fontName="Arial" height="18" style="1" />
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>553ac269:135b01240d5:-3c4e</wuid>
+    <transparent>false</transparent>
+    <auto_size>false</auto_size>
+    <text>Best OPI Yet (BOY)</text>
+    <scripts />
+    <height>44</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="135" green="181" blue="255" />
+    </background_color>
+    <width>488</width>
+    <x>299</x>
+    <name>Label_9</name>
+    <y>5</y>
+    <foreground_color>
+      <color red="29" green="40" blue="184" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <fontdata fontName="Arial" height="18" style="1" />
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.intensityGraph" version="1.0.0">
+    <vertial_profile_y_pv_value />
+    <y_axis_show_minor_ticks>true</y_axis_show_minor_ticks>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)</tooltip>
+    <x_axis_show_minor_ticks>true</x_axis_show_minor_ticks>
+    <horizon_profile_x_pv_name>loc://hpx</horizon_profile_x_pv_name>
+    <height>311</height>
+    <border_width>1</border_width>
+    <graph_area_width>253</graph_area_width>
+    <y_axis_scale_font>
+      <fontdata fontName="Segoe UI" height="9" style="0" />
+    </y_axis_scale_font>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <x_axis_minimum>0.0</x_axis_minimum>
+    <y_axis_maximum>100.0</y_axis_maximum>
+    <pixel_info_pv_value />
+    <x_axis_maximum>100.0</x_axis_maximum>
+    <vertial_profile_x_pv_value />
+    <actions hook="false" hook_all="false" />
+    <border_style>0</border_style>
+    <rgb_mode>false</rgb_mode>
+    <crop_left>0</crop_left>
+    <x_axis_scale_font>
+      <fontdata fontName="Segoe UI" height="9" style="0" />
+    </x_axis_scale_font>
+    <data_width>256</data_width>
+    <enabled>true</enabled>
+    <wuid>553ac269:135b01240d5:-3c4c</wuid>
+    <y_axis_title_font>
+      <fontdata fontName="Arial" height="9" style="1" />
+    </y_axis_title_font>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <graph_area_height>268</graph_area_height>
+    <x_axis_visible>true</x_axis_visible>
+    <vertical_profile_x_pv_name>loc://vpx</vertical_profile_x_pv_name>
+    <pixel_info_pv_name>loc://pixel_info</pixel_info_pv_name>
+    <x_axis_axis_color>
+      <color red="0" green="0" blue="0" />
+    </x_axis_axis_color>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <x_axis_axis_title>X Axis</x_axis_axis_title>
+    <width>371</width>
+    <x>258</x>
+    <y>108</y>
+    <maximum>1.0</maximum>
+    <data_height>256</data_height>
+    <minimum>-1.0</minimum>
+    <crop_right>0</crop_right>
+    <crop_top>0</crop_top>
+    <roi_color>
+      <color red="0" green="255" blue="255" />
+    </roi_color>
+    <font>
+      <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+    </font>
+    <rules>
+      <rule name="SelectColorMap" prop_id="color_map" out_exp="true">
+        <exp bool_exp="true">
+          <value>pvStr0</value>
+        </exp>
+        <pv trig="true">loc://colorMap</pv>
+      </rule>
+    </rules>
+    <horizon_profile_y_pv_value />
+    <roi_count>0</roi_count>
+    <pv_value />
+    <color_map>
+      <interpolate>true</interpolate>
+      <autoscale>true</autoscale>
+      <map>2</map>
+    </color_map>
+    <show_ramp>true</show_ramp>
+    <y_axis_axis_title>Y Axis</y_axis_axis_title>
+    <horizon_profile_y_pv_name>loc://hpy</horizon_profile_y_pv_name>
+    <single_line_profiling>false</single_line_profiling>
+    <y_axis_minimum>1000.0</y_axis_minimum>
+    <visible>true</visible>
+    <vertical_profile_y_pv_name>loc://vpy</vertical_profile_y_pv_name>
+    <x_axis_major_tick_step_hint>100</x_axis_major_tick_step_hint>
+    <pv_name></pv_name>
+    <widget_type>Intensity Graph</widget_type>
+    <name>IntensityGraph</name>
+    <y_axis_axis_color>
+      <color red="0" green="0" blue="0" />
+    </y_axis_axis_color>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <y_axis_major_tick_step_hint>50</y_axis_major_tick_step_hint>
+    <scripts>
+      <path pathString="../scripts/SetIntensityGraphData.js" checkConnect="true" sfe="false" seoe="false">
+        <pv trig="true">sim://ramp(0,10,0.2,1)</pv>
+        <pv trig="true">loc://dataSource</pv>
+      </path>
+    </scripts>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <x_axis_title_font>
+      <fontdata fontName="Arial" height="9" style="1" />
+    </x_axis_title_font>
+    <crop_bottom>0</crop_bottom>
+    <y_axis_visible>true</y_axis_visible>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <horizon_profile_x_pv_value />
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.combo" version="1.0.0">
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>553ac269:135b01240d5:-3c4b</wuid>
+    <pv_value />
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <height>33</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>false</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <items_from_pv>false</items_from_pv>
+    <visible>true</visible>
+    <pv_name>loc://colorMap</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Combo</widget_type>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>145</width>
+    <x>643</x>
+    <name>ColorMapSelector</name>
+    <y>133</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <items>
+      <s>JET</s>
+      <s>GrayScale</s>
+      <s>ColorSpectrum</s>
+      <s>Hot</s>
+      <s>Cool</s>
+      <s>Shaded</s>
+    </items>
+    <font>
+      <fontdata fontName="Arial" height="9" style="0" />
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>553ac269:135b01240d5:-3c4a</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>Select ColorMap:</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>150</width>
+    <x>643</x>
+    <name>Label</name>
+    <y>114</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <fontdata fontName="Arial" height="9" style="0" />
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.combo" version="1.0.0">
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>553ac269:135b01240d5:-3c49</wuid>
+    <pv_value />
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <height>33</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>false</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <items_from_pv>false</items_from_pv>
+    <visible>true</visible>
+    <pv_name>loc://dataSource</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Combo</widget_type>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>145</width>
+    <x>643</x>
+    <name>Combo Box_1</name>
+    <y>186</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <items>
+      <s>Circular Sine Wave</s>
+      <s>Linear Sine Wave</s>
+    </items>
+    <font>
+      <fontdata fontName="Arial" height="9" style="0" />
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>553ac269:135b01240d5:-3c48</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>Select Data Source:</text>
+    <scripts />
+    <height>20</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>150</width>
+    <x>643</x>
+    <name>Label_1</name>
+    <y>167</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <fontdata fontName="Arial" height="9" style="0" />
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.xyGraph" version="1.0.0">
+    <axis_1_scale_format></axis_1_scale_format>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <trace_0_concatenate_data>false</trace_0_concatenate_data>
+    <trace_0_trace_type>0</trace_0_trace_type>
+    <border_width>1</border_width>
+    <border_style>0</border_style>
+    <axis_0_grid_color>
+      <color red="200" green="200" blue="200" />
+    </axis_0_grid_color>
+    <trace_0_name>Trace 0</trace_0_name>
+    <trace_0_update_mode>0</trace_0_update_mode>
+    <wuid>553ac269:135b01240d5:-3c47</wuid>
+    <transparent>false</transparent>
+    <axis_0_title_font>
+      <fontdata fontName="Arial" height="9" style="1" />
+    </axis_0_title_font>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <x>41</x>
+    <y>106</y>
+    <trace_0_x_axis_index>0</trace_0_x_axis_index>
+    <axis_count>2</axis_count>
+    <pv_value />
+    <trace_0_buffer_size>256</trace_0_buffer_size>
+    <axis_1_maximum>100.0</axis_1_maximum>
+    <axis_0_scale_font>
+      <fontdata fontName="Segoe UI" height="9" style="0" />
+    </axis_0_scale_font>
+    <trigger_pv></trigger_pv>
+    <widget_type>XY Graph</widget_type>
+    <axis_1_axis_color>
+      <color red="0" green="0" blue="0" />
+    </axis_1_axis_color>
+    <axis_0_scale_format></axis_0_scale_format>
+    <axis_1_log_scale>false</axis_1_log_scale>
+    <title></title>
+    <trace_0_visible>true</trace_0_visible>
+    <show_legend>false</show_legend>
+    <axis_0_axis_title>Profile</axis_0_axis_title>
+    <axis_0_axis_color>
+      <color red="0" green="0" blue="0" />
+    </axis_0_axis_color>
+    <axis_0_dash_grid_line>true</axis_0_dash_grid_line>
+    <trace_0_point_style>0</trace_0_point_style>
+    <trace_0_line_width>1</trace_0_line_width>
+    <axis_0_time_format>0</axis_0_time_format>
+    <trace_count>1</trace_count>
+    <axis_1_show_grid>true</axis_1_show_grid>
+    <axis_1_dash_grid_line>true</axis_1_dash_grid_line>
+    <show_toolbar>false</show_toolbar>
+    <axis_0_visible>true</axis_0_visible>
+    <axis_0_show_grid>true</axis_0_show_grid>
+    <trace_0_y_axis_index>1</trace_0_y_axis_index>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <axis_0_maximum>1.0</axis_0_maximum>
+    <height>313</height>
+    <trigger_pv_value />
+    <axis_1_grid_color>
+      <color red="200" green="200" blue="200" />
+    </axis_1_grid_color>
+    <actions hook="false" hook_all="false" />
+    <axis_0_log_scale>false</axis_0_log_scale>
+    <trace_0_x_pv_value />
+    <axis_0_auto_scale_threshold>0.0</axis_0_auto_scale_threshold>
+    <rules />
+    <axis_1_visible>true</axis_1_visible>
+    <trace_0_update_delay>100</trace_0_update_delay>
+    <pv_name>$(trace_0_y_pv)</pv_name>
+    <name>XY Graph</name>
+    <axis_0_auto_scale>false</axis_0_auto_scale>
+    <axis_0_minimum>-1.0</axis_0_minimum>
+    <axis_1_axis_title>Y Axis</axis_1_axis_title>
+    <axis_1_auto_scale>true</axis_1_auto_scale>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <trace_0_y_pv>loc://vpx</trace_0_y_pv>
+    <trace_0_plot_mode>0</trace_0_plot_mode>
+    <enabled>true</enabled>
+    <trace_0_x_pv>loc://vpy</trace_0_x_pv>
+    <axis_1_scale_font>
+      <fontdata fontName="Segoe UI" height="9" style="0" />
+    </axis_1_scale_font>
+    <axis_1_time_format>0</axis_1_time_format>
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <show_plot_area_border>false</show_plot_area_border>
+    <width>211</width>
+    <axis_1_minimum>0.0</axis_1_minimum>
+    <title_font>
+      <fontdata fontName="Arial" height="12" style="1" />
+    </title_font>
+    <trace_0_y_pv_value />
+    <plot_area_background_color>
+      <color red="255" green="255" blue="255" />
+    </plot_area_background_color>
+    <axis_1_title_font>
+      <fontdata fontName="Arial" height="9" style="1" />
+    </axis_1_title_font>
+    <visible>true</visible>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <scripts />
+    <trace_0_point_size>4</trace_0_point_size>
+    <trace_0_trace_color>
+      <color red="255" green="0" blue="0" />
+    </trace_0_trace_color>
+    <trace_0_anti_alias>true</trace_0_anti_alias>
+    <axis_1_auto_scale_threshold>0.0</axis_1_auto_scale_threshold>
+    <foreground_color>
+      <color red="0" green="0" blue="255" />
+    </foreground_color>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.xyGraph" version="1.0.0">
+    <axis_1_scale_format></axis_1_scale_format>
+    <alarm_pulsing>false</alarm_pulsing>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <trace_0_concatenate_data>false</trace_0_concatenate_data>
+    <trace_0_trace_type>0</trace_0_trace_type>
+    <border_width>1</border_width>
+    <border_style>0</border_style>
+    <axis_0_grid_color>
+      <color red="200" green="200" blue="200" />
+    </axis_0_grid_color>
+    <trace_0_name>Trace 0</trace_0_name>
+    <trace_0_update_mode>0</trace_0_update_mode>
+    <wuid>553ac269:135b01240d5:-3c46</wuid>
+    <transparent>false</transparent>
+    <axis_0_title_font>
+      <fontdata fontName="Arial" height="9" style="1" />
+    </axis_0_title_font>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <x>255</x>
+    <y>422</y>
+    <trace_0_x_axis_index>0</trace_0_x_axis_index>
+    <axis_count>2</axis_count>
+    <pv_value />
+    <trace_0_buffer_size>256</trace_0_buffer_size>
+    <axis_1_maximum>1.0</axis_1_maximum>
+    <axis_0_scale_font>
+      <fontdata fontName="Segoe UI" height="9" style="0" />
+    </axis_0_scale_font>
+    <trigger_pv></trigger_pv>
+    <widget_type>XY Graph</widget_type>
+    <axis_1_axis_color>
+      <color red="0" green="0" blue="0" />
+    </axis_1_axis_color>
+    <axis_0_scale_format></axis_0_scale_format>
+    <axis_1_log_scale>false</axis_1_log_scale>
+    <title></title>
+    <trace_0_visible>true</trace_0_visible>
+    <show_legend>false</show_legend>
+    <axis_0_axis_title>X Axis</axis_0_axis_title>
+    <axis_0_axis_color>
+      <color red="0" green="0" blue="0" />
+    </axis_0_axis_color>
+    <axis_0_dash_grid_line>true</axis_0_dash_grid_line>
+    <trace_0_point_style>0</trace_0_point_style>
+    <trace_0_line_width>1</trace_0_line_width>
+    <axis_0_time_format>0</axis_0_time_format>
+    <trace_count>1</trace_count>
+    <axis_1_show_grid>true</axis_1_show_grid>
+    <axis_1_dash_grid_line>true</axis_1_dash_grid_line>
+    <show_toolbar>false</show_toolbar>
+    <axis_0_visible>true</axis_0_visible>
+    <axis_0_show_grid>true</axis_0_show_grid>
+    <trace_0_y_axis_index>1</trace_0_y_axis_index>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <axis_0_maximum>100.0</axis_0_maximum>
+    <height>142</height>
+    <trigger_pv_value />
+    <axis_1_grid_color>
+      <color red="200" green="200" blue="200" />
+    </axis_1_grid_color>
+    <actions hook="false" hook_all="false" />
+    <axis_0_log_scale>false</axis_0_log_scale>
+    <trace_0_x_pv_value />
+    <axis_0_auto_scale_threshold>0.0</axis_0_auto_scale_threshold>
+    <rules />
+    <axis_1_visible>true</axis_1_visible>
+    <trace_0_update_delay>100</trace_0_update_delay>
+    <pv_name>$(trace_0_y_pv)</pv_name>
+    <name>XY Graph_1</name>
+    <axis_0_auto_scale>true</axis_0_auto_scale>
+    <axis_0_minimum>0.0</axis_0_minimum>
+    <axis_1_axis_title>Profile</axis_1_axis_title>
+    <axis_1_auto_scale>false</axis_1_auto_scale>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <trace_0_y_pv>loc://hpy</trace_0_y_pv>
+    <trace_0_plot_mode>0</trace_0_plot_mode>
+    <enabled>true</enabled>
+    <trace_0_x_pv>loc://hpx</trace_0_x_pv>
+    <axis_1_scale_font>
+      <fontdata fontName="Segoe UI" height="9" style="0" />
+    </axis_1_scale_font>
+    <axis_1_time_format>0</axis_1_time_format>
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <show_plot_area_border>false</show_plot_area_border>
+    <width>328</width>
+    <axis_1_minimum>-1.0</axis_1_minimum>
+    <title_font>
+      <fontdata fontName="Arial" height="12" style="1" />
+    </title_font>
+    <trace_0_y_pv_value />
+    <plot_area_background_color>
+      <color red="255" green="255" blue="255" />
+    </plot_area_background_color>
+    <axis_1_title_font>
+      <fontdata fontName="Arial" height="9" style="1" />
+    </axis_1_title_font>
+    <visible>true</visible>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <scripts />
+    <trace_0_point_size>4</trace_0_point_size>
+    <trace_0_trace_color>
+      <color red="255" green="0" blue="0" />
+    </trace_0_trace_color>
+    <trace_0_anti_alias>true</trace_0_anti_alias>
+    <axis_1_auto_scale_threshold>0.0</axis_1_auto_scale_threshold>
+    <foreground_color>
+      <color red="0" green="0" blue="255" />
+    </foreground_color>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>1</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>553ac269:135b01240d5:-3c45</wuid>
+    <transparent>false</transparent>
+    <auto_size>false</auto_size>
+    <text>Tips:&#xD;
+&#xD;
+In Run Mode, dragging mouse on graph area will zoom in. &#xD;
+Double clicking will return to original states.&#xD;
+The text tip right below the cursor is (X, Y, Value)</text>
+    <scripts />
+    <height>158</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>0</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="223" />
+    </background_color>
+    <width>154</width>
+    <x>643</x>
+    <name>Label_5</name>
+    <y>219</y>
+    <foreground_color>
+      <color red="0" green="0" blue="203" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+    <toggle_button>false</toggle_button>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <push_action_index>0</push_action_index>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>66d1507f:138820a85e5:-7d3f</wuid>
+    <pv_value />
+    <text>Go Home</text>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>38</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <image>../pictures/home-16x16.png</image>
+    <visible>true</visible>
+    <pv_name></pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Action Button</widget_type>
+    <width>97</width>
+    <x>10</x>
+    <name>Action Button_3</name>
+    <y>549</y>
+    <style>1</style>
+    <foreground_color>
+      <color red="0" green="0" blue="128" />
+    </foreground_color>
+    <actions hook="true" hook_all="false">
+      <action type="EXECUTE_JAVASCRIPT">
+        <path>../scripts/goHome.js</path>
+        <scriptText><![CDATA[importPackage(Packages.org.csstudio.opibuilder.scriptUtil);
+]]></scriptText>
+        <embedded>false</embedded>
+        <description></description>
+      </action>
+    </actions>
+    <font>
+      <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+    <toggle_button>false</toggle_button>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <push_action_index>0</push_action_index>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>66d1507f:138820a85e5:-7d3a</wuid>
+    <pv_value />
+    <text>Back</text>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>28</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <image></image>
+    <visible>true</visible>
+    <pv_name></pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Action Button</widget_type>
+    <width>79</width>
+    <x>615</x>
+    <name>Action Button_2</name>
+    <y>552</y>
+    <style>1</style>
+    <foreground_color>
+      <color red="0" green="0" blue="128" />
+    </foreground_color>
+    <actions hook="true" hook_all="false">
+      <action type="OPEN_DISPLAY">
+        <path>2_6_1_IntensityGraph.opi</path>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+        </macros>
+        <replace>1</replace>
+        <description></description>
+      </action>
+    </actions>
+    <font>
+      <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+    <toggle_button>false</toggle_button>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <tooltip>Intensity Graph with Python script</tooltip>
+    <push_action_index>0</push_action_index>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>66d1507f:138820a85e5:-7d27</wuid>
+    <pv_value />
+    <text>Next</text>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>28</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <image></image>
+    <visible>true</visible>
+    <pv_name></pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Action Button</widget_type>
+    <width>79</width>
+    <x>703</x>
+    <name>Action Button_2</name>
+    <y>551</y>
+    <style>1</style>
+    <foreground_color>
+      <color red="0" green="0" blue="128" />
+    </foreground_color>
+    <actions hook="true" hook_all="false">
+      <action type="OPEN_DISPLAY">
+        <path>2_6_3_IntensityGraph_Python.opi</path>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+        </macros>
+        <replace>1</replace>
+        <description></description>
+      </action>
+    </actions>
+    <font>
+      <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.VTableDisplay" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>65aa75b2:14561138bf3:-7f4e</wuid>
+    <pv_result_prefix></pv_result_prefix>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <height>116</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name>loc://pixel_info</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>VTable Display</widget_type>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240" />
+    </background_color>
+    <width>250</width>
+    <x>2</x>
+    <name>Text Update</name>
+    <y>428</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
+    </font>
+  </widget>
+</display>

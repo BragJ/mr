@@ -1,0 +1,8 @@
+EXP_IB2_RM:M1:Det1:EventRate_RBV
+EXP_IB2_RM:soft:daq_alm
+EXP_IB2_RM:DET:HV:Winner1:u100:Voltage_Read
+EXP_IB2_RM:DET:HV:Winner1:u107:Voltage_Read
+EXP_IB2_RM:DET:HV:Winner1:u600:Voltage_Read
+EXP_IB2_RM:DET:HV:Winner1:u601:Voltage_Read
+EXP_IB2_RM:DET:HV:Winner1:SLOT01:bo
+EXP_IB2_RM:DET:HV:Winner1:SLOT06:bo

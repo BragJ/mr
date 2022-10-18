@@ -1,0 +1,4 @@
+#!/bin/bash
+export EPICS_CA_ADDR_LIST="10.1.31.182:7000 10.1.31.166 10.1.31.183 10.1.31.182:7004"
+echo $EPICS_CA_ADDR_LIST
+python3 mr_run.py

@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+macros="P","EXP_IB2_RM\:"|"DET1","Det1"|"DET2","Det2"|"DET3","Det3"|"DET4","DET4"|"BL","BL02"|"DET","1"|"TAB","Test"|"ioc","IOCTEST"|"M","Monitor"|"Ms","Monitors"
+show_fullscreen_dialog=false

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;CSS/subOPI/NEROS_Pixels_Mapping.opi&apos;" deleteContents="false" description="Delete resource &apos;CSS/subOPI/NEROS_Pixels_Mapping.opi&apos;" element1="/CSS/subOPI/NEROS_Pixels_Mapping.opi" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1507814000043"/>
+</session>

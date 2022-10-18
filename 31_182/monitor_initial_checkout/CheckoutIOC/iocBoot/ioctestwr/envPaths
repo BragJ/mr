@@ -1,0 +1,5 @@
+epicsEnvSet("ARCH","linux-x86_64")
+epicsEnvSet("IOC","ioctestwr")
+epicsEnvSet("TOP","/home/egcs/zhouke_monitor/monitor_initial_checkout/CheckoutIOC")
+epicsEnvSet("EPICS_BASE","/opt/egcs/epics/base")
+epicsEnvSet("EPICS_CAS_SERVER_PORT","8100")

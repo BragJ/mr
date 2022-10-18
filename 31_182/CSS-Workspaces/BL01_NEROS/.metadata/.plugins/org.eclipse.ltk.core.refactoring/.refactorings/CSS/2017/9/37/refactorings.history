@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;CSS/NEROS_Monitor1_XY.opi&apos; to &apos;Monitor1_XY_TOF.opi&apos;" description="Rename resource &apos;NEROS_Monitor1_XY.opi&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="NEROS_Monitor1_XY.opi" name="Monitor1_XY_TOF.opi" stamp="1505356960567" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;CSS/Monitor1_XY_TOF.opi&apos; to &apos;NEROS_Monitor1_XY_TOF.opi&apos;" description="Rename resource &apos;Monitor1_XY_TOF.opi&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Monitor1_XY_TOF.opi" name="NEROS_Monitor1_XY_TOF.opi" stamp="1505356991859" updateReferences="true"/>
+</session>
